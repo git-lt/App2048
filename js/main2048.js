@@ -1,3 +1,9 @@
+/**
+ * Created by liutao on 14-8-29.
+ * version 0.0.1
+ * GitHub: https://github.com/git-lt/App2048
+ */
+
 //界面数据、分数、检测是否碰撞过的数组
 var board =[],score=0,hasConflicted=[];
 
@@ -18,9 +24,6 @@ function prepareForMobile(){
 		cellSideLength=100;
 	}
 	
-	if(documentWidth <= 500){
-		// 调整header的样式
-	}
 
 	$('#grid-container').css('width',gridContainerWidth-2*cellSpace);
 	$('#grid-container').css('height',gridContainerWidth-2*cellSpace);

@@ -1,4 +1,11 @@
-var documentWidth = window.screen.availWidth,
+/**
+ * Created by liutao on 14-8-29.
+ * version 0.0.1
+ * GitHub: https://github.com/git-lt/App2048
+ */
+
+//var documentWidth = window.screen.availWidth,
+var documentWidth = document.body.clientWidth,
 	gridContainerWidth= 0.92*documentWidth,
 	cellSideLength = 0.18 * documentWidth,
 	cellSpace = 0.04* documentWidth;

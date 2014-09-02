@@ -1,3 +1,9 @@
+/**
+ * Created by liutao on 14-8-29.
+ * version 0.0.1
+ * GitHub: https://github.com/git-lt/App2048
+ */
+
 
 //显示数字的动画处理
 function showNumberWithAnimation(i,j,randNum){
